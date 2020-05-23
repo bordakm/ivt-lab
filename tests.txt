@@ -1,0 +1,9 @@
+FiringMode.SINGLE-nél ellenőrizzük, hogy ha két nemüres, jólműködő TorpedoStore-unk van, akkor valóban csak az elsőből tüzel
+
+FiringMode.SINGLE-nél ellenőrizzük, hogy ha két nemüres, jólműködő TorpedoStore-unk van, akkor két tüzelésnél mindkettőből tüzelt-e.
+
+FiringMode.SINGLE-nél ellenőrizzük, hogy ha az első Store üres akkor a másodikból tüzelt.
+
+FiringMode.SINGLE-nél ellenőrizzük, hogy ha az második Store üres akkor két tüzelésnél mindkettő az elsőből jött.
+
+FiringMode.ALL-nál ellenőrizzük, ha egyik store sem üres és egyik sem hibázik, akkor mindkettőből tüzel-e.
